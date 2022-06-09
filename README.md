@@ -25,3 +25,6 @@ This Souce Code contain One Route which responsible for send **Contact Form** Da
 
 ### Other Technolohies & Libs:
   - [**nodemailer**](https://www.npmjs.com/package/nodemailer)
+  - [**cors**](https://www.npmjs.com/package/cors)
+  - [**body-parser**](https://www.npmjs.com/package/body-parser)
+  - [**nodemon**](https://www.npmjs.com/package/nodemon)
