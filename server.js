@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 //* Cors Initialaize
-const whitelist = ["https://ahmed-seven.vercel.app/"];
+const whitelist = ["https://ahmed-seven.vercel.app"];
 const corsOptions = {
   origin: function (origin, callback) {
     if (whitelist.indexOf(origin) !== -1) {
