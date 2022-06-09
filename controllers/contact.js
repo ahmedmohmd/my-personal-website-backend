@@ -12,8 +12,6 @@ const contactController = (req, res) => {
       pass: process.env.APP_PASS,
     },
   });
-  // user: "er.ahmed.3301@gmail.com",
-  // pass: "eysqbjkboxbjnsgd",
 
   const mailOptions = {
     from: email,
